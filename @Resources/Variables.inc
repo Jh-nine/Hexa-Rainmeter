@@ -47,9 +47,12 @@ FontSizeLarge=19
 DockColumns=3
 DockRows=2
 
+; --- 디스크 ---
+DiskDrive=C:
+
 ; --- 비주얼라이저 ---
 VisualizerLayers=5
-VisualizerColor=100,180,255
+VisualizerColor=200,200,200
 ; 미디어 정보 패널 위치 (1=오른쪽, 0=왼쪽)
 MediaInfoSide=1
 
