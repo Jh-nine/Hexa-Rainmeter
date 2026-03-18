@@ -53,6 +53,9 @@ Drive=#DiskDrive#
 | `#SETTINGSPATH#` (Rainmeter 설정 경로) | 드라이브 하드코딩 |
 | Rainmeter 내장 변수 (`#WORKAREAX#`, `#SCREENAREAWIDTH#` 등) | 해상도 하드코딩 |
 
+> **예외: Dock (AppList.inc)**
+> Dock 앱 목록은 개인 환경에 맞춰야 하므로 `AppList.inc`에 한해 절대경로, PWA app-id, 특정 프로그램 경로 등 하드코딩 허용.
+
 **앱 실행 — 시스템 PATH나 프로토콜 활용:**
 ```ini
 ; URL 기반 실행 (브라우저 종속 제거)
@@ -153,9 +156,6 @@ Shape2=Path ProgressPath | StrokeWidth 2 | Stroke Color #ProgressColor# | Stroke
 - 모든 Shape 미터에 `DynamicVariables=1` (동적 연산 필수)
 - 불필요한 `SolidColor`, `Fill Color` 투명 배경: `0,0,0,0` (히트 영역이면 `0,0,0,1`)
 
-### 10. 현재 알려진 호환성 문제 (수정 필요)
+### 10. 참고 문서
 
-1. **HW_GPU**: `nvidia-smi` 사용 → NVIDIA 전용. UsageMonitor 또는 HWiNFO로 교체 필요
-2. **HW_DISK**: `Drive=C:` 하드코딩 → `#DiskDrive#` 변수로 교체 필요
-3. **Dock**: `chrome` 하드코딩 → 기본 브라우저 또는 변수화 필요
-4. **폰트**: `Smooch Sans SemiBold` → 미설치 시 대비 폴백 또는 @Resources/Fonts에 동봉 필요
+- 진행 예정 작업 및 개선 계획은 `.github/TODO.md` 참조

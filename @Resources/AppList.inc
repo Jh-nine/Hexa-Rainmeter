@@ -19,8 +19,10 @@ AppIcon_1=#@#Icons\google.png
 
 AppName_2=YouTube
 AppUrl_2=https://www.youtube.com
+AppId_2=agimnkijcaahngcdmfeangaknmldooml
 AppIcon_2=#@#Icons\youtube.png
 
 AppName_3=YouTube Music
 AppUrl_3=https://music.youtube.com
+AppId_3=cinhimbnkkaeohfgghhklpknlkffjgod
 AppIcon_3=#@#Icons\YT-music.png
