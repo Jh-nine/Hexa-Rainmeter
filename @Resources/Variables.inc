@@ -62,6 +62,12 @@ FanMaxRPM=3000
 SnapOriginX=0
 SnapOriginY=0
 
+; --- 기준 해상도 (스냅 그리드 스케일 기준) ---
+; 이 해상도에서 HexOffset 값이 1:1로 적용됨
+; 다른 해상도에서는 비율에 따라 간격이 자동 조정됨
+ReferenceWidth=1920
+ReferenceHeight=1080
+
 ; --- 비주얼라이저 ---
 VisualizerLayers=5
 VisualizerColor=200,200,200
