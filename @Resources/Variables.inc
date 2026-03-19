@@ -44,11 +44,19 @@ FontSizeSmall=13
 FontSizeLarge=19
 
 ; --- 아이콘 독 설정 ---
-DockColumns=3
-DockRows=2
+DockColumns=2
+DockRows=3
 
 ; --- 디스크 ---
 DiskDrive=C:
+
+; --- 네트워크 ---
+NetMaxBandwidth=100
+; 프로그레스바 기준 최대 대역폭 (MB/s)
+
+; --- 팬 ---
+FanMaxRPM=3000
+; 프로그레스바 기준 최대 RPM
 
 ; --- 허니콤 스냅 원점 (스크린 좌표) ---
 SnapOriginX=0
