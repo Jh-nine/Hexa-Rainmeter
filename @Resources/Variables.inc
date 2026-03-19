@@ -50,6 +50,10 @@ DockRows=2
 ; --- 디스크 ---
 DiskDrive=C:
 
+; --- 허니콤 스냅 원점 (스크린 좌표) ---
+SnapOriginX=0
+SnapOriginY=0
+
 ; --- 비주얼라이저 ---
 VisualizerLayers=5
 VisualizerColor=200,200,200
